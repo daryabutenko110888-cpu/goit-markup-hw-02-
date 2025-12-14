@@ -42,8 +42,8 @@ a {
   color: #434455;
 }
 
-.now-link:hover,
-.now-link:focus,
+.nav-link:hover,
+.nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
@@ -68,8 +68,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* ---------------------------features-------------------------*/
@@ -118,6 +124,7 @@ a {
 }
 
 .team-members {
+  background-color: #fff;
 }
 
 .team-members-img {
@@ -172,7 +179,7 @@ a {
 .made-img {
 }
 
-.made-subtitile {
+.made-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
